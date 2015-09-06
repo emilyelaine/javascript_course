@@ -1,0 +1,69 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+h1, h2, h3 {
+
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+
+}
+
+h1  {
+    color: #B22222;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #B22222;
+}
+
+h2  {
+    color: #000;
+    font-size: 110%;
+}
+
+div#flashcards div {
+    width: 260px;
+    height: 230px;
+    margin: 20px 65px;
+    float: left;
+    border: 5px solid #0099CC;
+    border-radius: 25px;
+}
+
+img {
+    margin: 5px;
+
+}
+
+h3  {
+    color: #0099CC;
+    margin-top: -15px;
+}
+
+section {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

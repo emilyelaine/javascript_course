@@ -1,0 +1,103 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Assignment 2</title>
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script type="text/javascript">
+
+        </script>
+
+    </head>
+    
+    <body>
+     
+        <header>
+            <h1>Name The Capitals of the States</h1>
+            <h2>Directions: Mouse over the state to reveal the capital.</h2>
+        </header>
+
+        <section>
+            <div id="flashcards">
+                    <div>
+                        <img alt="Alabama" id="alabama" src="img/alabama.jpg">
+                        <h3>Alabama</h3>
+                    </div>
+                    
+                    <div>
+                        <img alt="Alaska" id="alaska" src="img/alaska.jpg">
+                        <h3>Alaska</h3>
+                    </div>
+
+                    <div>
+                        <img alt="Arizona" id="arizona" src="img/arizona.jpg">
+                        <h3>Arizona</h3>
+                    </div>
+
+                    <div>
+                        <img alt"Arkansas" id="arkansas" src="img/arkansas.jpg">
+                        <h3>Arkansas</h3>
+                    </div>
+
+                    <div>
+                        <img alt="California" id="california" src="img/california.jpg">
+                        <h3>California</h3>
+                    </div>
+
+                    <div>
+                        <img alt="Colorado" id="colorado" src="img/colorado.jpg">
+                        <h3>Colorado</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+        </footer>
+
+        <script type="text/javascript">
+
+            var alabama = document.getElementById('alabama');
+            var capitalFunction = function(){
+                alert('The capital of Alabama is Montgomery.');
+            };
+                alabama.addEventListener('mouseover',capitalFunction);
+
+            var alaska = document.getElementById('alaska');
+            var capitalFunction = function(){
+                alert('The capital of Alaska is Juneau.');
+            };
+                alaska.addEventListener('mouseover',capitalFunction);
+
+            var arizona = document.getElementById('arizona');
+            var capitalFunction = function(){
+                alert('The capital of Arizona is Phoenix.');
+            };
+                arizona.addEventListener('mouseover',capitalFunction);
+
+            var arkansas = document.getElementById('arkansas');
+            var capitalFunction = function(){
+                alert('The capital of Arkansas is Little Rock.');
+            };
+                arkansas.addEventListener('mouseover',capitalFunction);
+
+            var california = document.getElementById('california');
+            var capitalFunction = function(){
+                alert('The capital of California is Sacramento.');
+            };
+                california.addEventListener('mouseover',capitalFunction);
+
+            var colorado = document.getElementById('colorado');
+            var capitalFunction = function(){
+                alert('The capital of Colorado is Denver.');
+            };
+                colorado.addEventListener('mouseover',capitalFunction);   
+
+        </script>
+
+    </body>
+</html>
