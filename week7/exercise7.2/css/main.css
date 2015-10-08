@@ -1,0 +1,14 @@
+body	{
+	font-family: Helvetica, Arial, Sans-serif;
+}
+
+.change	{
+	background-color: #663366;
+	color: #fff;
+	text-align: center;
+	width: 350px;
+	padding: 20px;
+
+	-webkit-transition: text-align 2s, padding 2s; /* Safari */
+    transition: text-align 2s, padding 2s;
+}
