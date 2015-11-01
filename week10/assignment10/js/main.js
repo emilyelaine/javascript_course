@@ -2,12 +2,12 @@ $('document').ready(function() {
 
 //Background color is changed when any a element is clicked
 $('a').click(function() {
-	var backgroundColor = $(this).css('backgroundColor', '#FFFFCC');
+	$(this).css('backgroundColor', '#FFFFCC');
 });
 
 //Changes color of text on the main menu to be readable with clicked background color
-$('#menu .backgroundClick').click(function() {
-	var menuBackgroundColor = $(this).css('color', '#000');
+$('#menu a').click(function() {
+	$(this).css('color', '#000');
 });
 
 //toggle the post content on and off
