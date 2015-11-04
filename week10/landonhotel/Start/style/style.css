@@ -114,3 +114,12 @@ form{
 #hero div.current {
     z-index: 2;
 }
+
+.hoverStyle h3 {
+	color: red;
+	font-style: bold;
+	text-decoration: underline;
+}
+.hoverStyle {
+	background-color: #FFFFCC;
+}
