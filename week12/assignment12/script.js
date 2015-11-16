@@ -2,26 +2,23 @@ $(document).ready(function() {
 
 //expand menu navigation
 $('p#menuButton').click(function() {
-	$('nav').toggle(200, 'linear');
+	$('nav').toggle(200);
 });
 
-//show div recipe content
-//add unique id to 
-$(div.recipe h2).each(function(i) {
-	$(this).parent().attr('id', 'recipe' + i);
-
-$(nav ul a li).each(function(i) {
-	$(this).append('a[href="#recipe' + i + '"]')
+$(window).load(function() {
+	$('.recipe').hide();
 })
 
-//hides all recipe content
- $('div.recipe').css('display', 'none');
-
- //add click events 
- $('nav ul a').click(function(){
-        $('section div').css('display', 'none');
-        $('#'+this.id).css('display', 'block');
-    });
+//show div section when associated link is clicked http://stackoverflow.com/questions/30157277/show-hide-multiple-divs-only-one-at-a-time-jquery
+$('.showHide').on('click', function() {
+    $('.recipe').fadeOut('slow');
+    $('.recipe').eq($(this).index()).fadeIn('slow', 'linear');
 });
 
+$(window).load(function() {
+	('h1').animate(
+		{left: 500},
+		'slow'
+	);
+});
 });
