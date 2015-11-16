@@ -1,0 +1,103 @@
+*	{
+	box-sizing: border-box;
+}
+body {
+	font-family: "Helvetica", Arial, sans-serif;
+	font-weight: 300;
+	margin: 0;
+	line-height: 1.3em;
+}
+
+h1	{
+	background-color: #33CCCC;
+	color: white;
+	font-size: 400%;
+	height: 130px;
+	padding-top: 50px;
+	text-align: center;
+	margin: 0;
+}
+
+p#menuButton {
+	border: solid 6px #FF9900;
+	width: 350px;
+	height: 50px;
+	background-color: white;
+	font-size: 150%;
+	margin-top: 45px;
+	padding: 8px;
+	text-align: center;
+}
+
+p#menuButton a {
+	text-decoration: none;
+	color: black;
+}
+
+#mainNavigation {
+	float: left;
+	width: 30%;
+}
+
+nav{
+	margin-top: -25px;
+	margin-left: -40px;
+
+}
+
+section	{
+	float: left;
+	width: 70%;
+	visibility: hidden;
+}
+
+nav li	{
+	list-style-type: none;
+	padding: 10px;
+	background-color: #FF9900;
+	height: 50px;
+	width: 350px;
+	text-align: center;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+}
+
+nav li:hover {
+	background-color: #33CCCC;
+}
+
+div.recipe {
+	padding: 15px 50px 20px 30px;
+}
+
+h2	{
+	font-size: 200%;
+	font-weight: 300;
+	border-bottom: solid 2px #33CCCC;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+p.review {
+	font-style: italic;
+	font-size: 90%;
+}
+
+div.recipe ul li {
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+div.smallSquare	{
+	width: 10px;
+	height: 10px;
+	background-color: #33CCCC;
+	position: absolute;
+	bottom: 400px;
+	display: box;
+}
+
+
