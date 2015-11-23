@@ -1,15 +1,6 @@
-/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
-
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+body {
+  margin: 0 100px;
+}
 
 h1, h2, h3 {
 
@@ -29,28 +20,30 @@ h2  {
     font-size: 110%;
 }
 
-div.front, div.back {
-    width: 350px;
-    height: 300px;
-    margin: 20px 85px;
-    float: left;
-    border-radius: 25px;
-    background-color: white;
+.card {
+  width: 250px;
+  height: 300px;
+  margin: 20px 30px;
+  display: inline-block;
 }
 
-div.front {
-    border: 5px solid #0099CC;
-    position: relative;
+.front, .back {
+  padding: 10px;
+  border-radius: 25px;
 }
 
-div.back  {
-    border: 5px solid #B22222;
-    border-radius: 25px;
+.front {
+  border: 5px solid #0099CC;
+  background-color: white;
+}
+      
+.back {
+  border: 5px solid #B22222;
+  background-color: white;
 }
 
 img {
     margin: 5px;
-    padding-left: 45px;
     padding-top: 20px;
 
 }
@@ -60,27 +53,3 @@ h3  {
     margin-top: 5px;
     font-size: 150%;
 }
-
-section {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-img.visible, h3.visible {
-    visibility: visible;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
