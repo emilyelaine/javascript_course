@@ -1,0 +1,124 @@
+
+
+/* Main Page Settings*/
+
+
+header.top	{
+	height: 450px;
+	background-image: url("../../img/the-kirkbride.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+}
+
+h1.title a	{
+		text-decoration: none;
+		color: #cccecd;
+		
+}
+
+aside	{
+	padding-top: 7px;
+	width: 30%;	
+	float: left;
+	margin-bottom: 30px;
+}
+
+aside img	{
+	float: left;
+	padding: 5px;	
+}
+
+aside h3	{
+	width: 100%;
+}
+
+section.overview	{
+	width: 70%;	
+	float: right;
+}
+
+h2	{
+	text-align: left;	
+}
+
+aside ul li	{
+	font-size: 125%;	
+	font-weight: bold;
+}
+
+aside ul li	a	{
+	text-decoration: none;
+	color: #6a4f46;
+}
+
+aside ul li a:hover	{
+	color: #799c42;
+	text-decoration: underline;	
+}
+
+aside ul li a:visited	{
+	color: #799c42;	
+}
+
+aside iframe	{
+	margin-left: 10px;	
+}
+
+aside h3	{
+	padding-bottom: 0;
+	margin-bottom: 0;	
+}
+
+div.creativeprocess	{
+	clear: both;	
+}
+
+div.tab-content header h2	{
+	background-color: #a04d47;
+	height: auto;	
+}
+
+ul.tabs left li	{
+	font-size: 150%;
+		
+}
+
+iframe	{
+	padding: 20px;
+}
+
+div#tabr1 article	{
+	text-align: center;
+}
+
+div#tabr2 img	{
+	width: 250px;
+	height: auto;
+	padding: 10px;
+}	
+
+audio	{
+	margin-right: 15px;	
+}
+
+div#song1, div#song2	{
+	float: left;	
+	padding: 20px;
+}
+
+div#tabr4 article h3	{
+	font-size: 200%;	
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 200;
+	width: 100%;
+}
+
+div#tabr3 article	{
+	height: 100px;	
+}
+
+footer	{
+	
+	margin-top: -40px;
+}

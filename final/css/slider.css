@@ -1,0 +1,21 @@
+#slideshow {
+    height: auto;
+    width: 100%;
+    background-color: white;
+   }
+#slideshow img	{
+	width: 100%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+#slideshow div {
+    position: absolute;
+    z-index: 0;
+}
+#slideshow div.previous {
+    z-index: 1;
+}
+#slideshow div.current {
+    z-index: 2;
+}
