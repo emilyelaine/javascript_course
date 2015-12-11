@@ -1,8 +1,9 @@
 //email validation for newsletter
-function validateEmail(inputText) {
-	var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+function validateEmail() {
+	var mailFormat = /(.+)@(.+){2,}\.(.+){2,}/;
+	var emailText = document.getElementById('email').value;
 
-	if(inputText.value.match(mailFormat)) {
+	if(mailFormat.test(emailText)) {
 		alert('Thanks for signing up for our newsletter!');
 		document.newsletter.focus();
 		return true;
