@@ -1,3 +1,19 @@
+//email validation for newsletter
+function validateEmail(inputText) {
+	var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+	if(inputText.value.match(mailFormat)) {
+		alert('Thanks for signing up for our newsletter!');
+		document.newsletter.focus();
+		return true;
+		}
+	else {
+		alert('You entered an invalid email address.  Please try again!');
+		return false;
+	};
+};
+
+//image slider for home page
 function imgSlider() {
 		var currentImage = $('#slideshow div.current');
 		var nextImage = currentImage.next();

@@ -128,9 +128,11 @@ to the work of over 60 artists from both Saint Paul and Minneapolis!</p>
 		</nav>
 		
 		<p>Enter your email address to hear about our latest endevors</p>
- 		<div class ="newsletter">       
-			<input id="text2" type="text" placeholder="email address" />
-			<button class="medium">Subscribe!</button>
+ 		<div class ="newsletter"> 
+ 			<form name="newsletter">
+				<input type="text" name="email">
+				<input type="submit" onclick="event.preventDefault(), submit(validateEmail(this))" value="Subscribe">
+			</form>      
         </div>
 
 		<p id="copyright">PlaceBase Productions &copy; 2014</p>
