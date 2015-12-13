@@ -386,7 +386,7 @@ vertical-align: bottom;
 
 	img.align-left, .img-wrap.align-left{float:left;margin:0 10px 5px 0;}
 	img.align-right, .img-wrap.align-right{float:right;margin:0 0 5px 10px;}
-	img.full-width{clear:both;display:block;width:100%;height:auto;margin:0 0 10px 0;}
+	img.full-width{clear:both;display:block;width:100%;height:auto;margin:0;}
 
 	div.caption{
 	background:#f5f5f5;

@@ -1,18 +1,22 @@
-#slideshow {
-    height: auto;
-    width: 100%;
-    background-color: white;
+div#slideshow {
+    width: 80%;
    }
+
+div.current, div.previous {
+	width: 80%;
+}
+
 #slideshow img	{
 	width: 100%;
 	height: auto;
-	margin-right: auto;
-	margin-left: auto;
+	padding: 0;
+	margin: 0;
 }
 #slideshow div {
     position: absolute;
     z-index: 0;
 }
+
 #slideshow div.previous {
     z-index: 1;
 }
